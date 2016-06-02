@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <h1>Let's make a beautiful triangle!</h1>
+      <form id="questions">
+        <label class="form-group">Side #1</label>
+        <div class="form-group" value="side1">
+          <input id="side1" class="form-control" type="text">
+        </div>
+
+        <label>Side #2</label>
+        <div class="form-group" value="side2">
+          <input id="side2" class="form-control" type="text">
+        </div>
+
+        <label>Side #3</label>
+        <div class="form-group" value="side3">
+          <input id="side3" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">What kind of triangle do I have?</button>
+      </form>
+      <div id="output">
+      </div>
+
+      <div id="equ">
+        <h3>Equilateral!</h3>
+        <p>All of your sides are equal so you have an equilateral, my friend!</p>
+      </div>
+
+      <div id="iso">
+        <h3>Isosceles!</h3>
+        <p>Two your sides are equal so you have an isosceles, my friend!</p>
+      </div>
+
+      <div id="sca">
+        <h3>Scalene!</h3>
+        <p>None of your sides are equal so you have a scalene, my friend!</p>
+      </div>
+
+      <div id="not">
+        <h3>You don't have a triangle...</h3>
+        <p>The sum of the lengths of any of your sides are less than or equal to the length of your third side so you don't have a triangle, my friend. But, you do have a horse.</p>
+        <img src="img/horse.jpeg">
+      </div>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
